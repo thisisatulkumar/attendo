@@ -25,27 +25,12 @@ export default function LandingPage() {
 
     if (user) return <p>Loading...</p>
     
-    const handleGoogleSignIn = async () => {
-        try {
-            const result = await signInWithPopup(auth, googleProvider);
-            const user = result.user;
-
-            console.log(user);
-        } catch (error) {
-            console.error("Error during sign-in:", error);
-        }
-    }
+    
     
     return (
-        // <div onClick={handleGoogleSignIn}>
-        //     <button>Sign In With Google</button>            
-        // </div>
-
         <>
-            <Navbar />
             <Hero />
             <Features />
-            <Footer />
         </>
     );
 }

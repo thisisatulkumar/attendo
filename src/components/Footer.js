@@ -15,7 +15,7 @@ const Footer = () => {
 
                     <div className="flex flex-col items-center gap-4 md:flex-row">
                         <p className="text-sm text-foreground font-medium">
-                            Developed by <span className="text-accent">Atul Kumar</span>
+                            Developed by <span className="text-blue-600 font-semibold">Atul Kumar</span>
                         </p>
 
                         <div className="flex gap-4">

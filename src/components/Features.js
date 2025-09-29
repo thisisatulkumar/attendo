@@ -56,6 +56,7 @@ const Features = () => {
                     <h2 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl mb-4">
                         Powerful Features
                     </h2>
+                    
                     <p className="text-lg text-muted-foreground">
                         Everything you need to stay on top of your attendance game
                     </p>
@@ -68,21 +69,21 @@ const Features = () => {
                         return (
                             <Card 
                                 key={index} 
-                                className="group border-border bg-card/50 backdrop-blur-sm transition-all"
+                                className="group border-border bg-zinc-900/90 backdrop-blur-sm transition-all hover:bg-zinc-900/95"
                                 style={{ animationDelay: `${index * 100}ms` }}
                             >
                                 <CardHeader>
-                                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent transition-all">
+                                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-600/10 text-blue-600 transition-all">
                                         <Icon className="h-6 w-6" />
                                     </div>
 
-                                    <CardTitle className="text-xl text-foreground">
+                                    <CardTitle className="text-xl text-white">
                                         {feature.title}
                                     </CardTitle>
                                 </CardHeader>
 
                                 <CardContent>
-                                    <CardDescription className="text-base text-muted-foreground">
+                                    <CardDescription className="text-base text-zinc-300">
                                         {feature.description}
                                     </CardDescription>
                                 </CardContent>
