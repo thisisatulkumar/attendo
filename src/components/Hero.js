@@ -16,8 +16,8 @@ const Hero = () => {
                     className="h-full w-full object-cover"
                 />
                 
-                <div className="absolute inset-0 bg-gradient-to-br from-background via-background/95 to-background/80" />
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(37,99,235,0.1)_0%,transparent_30%)]" />
+                <div className="absolute inset-0 bg-black/60" />
+                <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-zinc-950/50 to-zinc-900/40" />
             </div>
 
             <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 pt-20">

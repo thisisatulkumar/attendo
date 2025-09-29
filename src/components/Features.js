@@ -50,7 +50,7 @@ const Features = () => {
     ];
 
     return (
-        <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-secondary/20">
+                <section className="py-24 px-4 sm:px-6 lg:px-8 bg-black">
             <div className="container mx-auto">
                 <div className="mx-auto max-w-2xl text-center mb-16">
                     <h2 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl mb-4">
@@ -69,11 +69,11 @@ const Features = () => {
                         return (
                             <Card 
                                 key={index} 
-                                className="group border-border bg-zinc-900/90 backdrop-blur-sm transition-all hover:bg-zinc-900/95"
+                                className="group border-zinc-800/50 bg-zinc-950 backdrop-blur-sm transition-all hover:bg-zinc-900"
                                 style={{ animationDelay: `${index * 100}ms` }}
                             >
                                 <CardHeader>
-                                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-600/10 text-blue-600 transition-all">
+                                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-500/10 text-blue-500 transition-all hover:bg-blue-500/20">
                                         <Icon className="h-6 w-6" />
                                     </div>
 
