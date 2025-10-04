@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-    title: "Attendo - Attendance Tracker",
+    title: "Attendo - Best Attendance Tracker",
     description: "Best attendance tracker for students",
 };
 
